@@ -5,4 +5,4 @@ SELECT
     status,
     amount/100.00 AS amount,
     created AS created_at
-FROM {{ source('stripe','payments') }}
+FROM {{ source('stripe','payment') }}
