@@ -13,7 +13,7 @@ models:
         description: NULL when a customer has not yet placed an order.
 
   - name: orders
-    description: Orders that is a combination of jaffle and stripe data
+    description: '{{ doc("orders") }}'
     columns:
       - name: order_id
         description: Primary Key
