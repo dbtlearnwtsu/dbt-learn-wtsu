@@ -11,6 +11,6 @@ SELECT
     {%- else -%}
     ,
     {%- endif -%}
-  {%- endfor -%}
+  {% endfor %}
 FROM {{ ref('stg_payments')}}
 GROUP BY 1
